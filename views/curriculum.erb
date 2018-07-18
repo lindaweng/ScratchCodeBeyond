@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Curriculum</title>
+        <link rel="stylesheet" type="text/css" href="./style1.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Knewave|Comfortaa|Handlee">
+    </head>
+    
+    <body id="page-top">
+        <nav class="navbar" id="mainNav">
+            <a class="nav-title" href="#page-top"> Scratch, Code, and Beyond</a>
+            <ul class="navbar-list">
+                <li class="nav-item">
+                    <a href="/about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#toolkit">Toolkit</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/">Home</a>
+                </li>
+            </ul>
+        </nav>
+        
+        <header>
+            <div class="title">
+                <h1>Scratch, Code, and Beyond</h1>
+            </div>
+        </header>
+        
+        <section id="toolkit">
+            <div class="container" style="padding-left: 15%; padding-right: 15%">
+                <h2>Toolkit</h2>
+                <p>Suggested age group: 10 - 14</p>
+                <p>Suggested Length: 6 hours to complete curriculum</p>
+                <h3>Planning</h3>
+                <ul class="steps">
+                    <li>Contact community leader to have their support.</li>
+                    <li>Secure a space with computers and spread the word about your program location and dates.</li>
+                    <li>Become familiar with <a href="https://scratch.mit.edu" target="_blank">Scratch</a> and decide what game to program.</li>
+                    <li>If you are familiar with Python Turtle, then decide what design to program in Python Turtle. If not, please skip the Python Turtle Lesson.</li>
+                </ul>
+                
+                <h3>Curriculum</h3>
+                <ul class="steps">
+                    <strong>Conduct Pre-Survey</strong>
+                    <ol>
+                        <li>How much experience do you have with coding? (1-5 scale)</li>
+                        <li>How interested are you in pursuing coding in the future?</li>
+                        <li>Why do you want to code?</li>
+                    </ol>
+                    <li>Talk about why computer science is important</li>
+                    <strong>Scratch Lesson</strong>
+                    <li>Get everyone signed up for <a href="https://scratch.mit.edu" target="_blank">Scratch</a></li>
+                    <li>Let students pick their main character and background</li>
+                    <li>Make main character move based on a pressed key</li>
+                    <li>Create other objects and make them move automatically</li>
+                    <li>Have main character interact with the other objects and count score, if applicable</li>
+                    <li>Create "Game Over" and "You Win" messages</li>
+                    <li>Make a game homepage with a play button to start the game</li>
+                    <li>Let students specialize their game with special effects when game over</li>
+                    <li>Have students go around and play each others' games</li>
+                    <strong>Python Turtle Lesson</strong>
+                    <li>Have everyone open <a href="https://repl.it" target="_blank">Repl.it</a> and sign up</li>
+                    <li>If Repl.it doesn't work, try <a href="https://trinket.io" target="_blank">Trinket.io</a> and sign up</li>
+                    <li>Create a new Repl or Trinket</li>
+                    <li>Choose Python (with Turtle) as your language on Repl.it or Python as your language on Trinket.io</li>
+                    <li>Create a turtle and let students name their own turtle</li>
+                    <li>Draw a square</li>
+                    <li>Explain how the turtle moves and turns</li>
+                    <li>Change the turtle's color</li>
+                    <li>Challenge the students to draw a triangle or pentagon</li>
+                    <li>Explain how the code is repetitive and can be looped</li>
+                    <li>Loop a couple lines of code to create a cool colorful design</li>
+                    <li>Have students come up with their own cool designs</li>
+                    <li>Have students look at each others cool designs</li>
+                    <strong>Conduct Post-Survey</strong>
+                    <ol>
+                        <li>How was your experience with this program? (1-5 scale)</li>
+                        <li>Has your interest in STEM (science, technology, engineering, mathematics) increased by this program? (Yes/No)</li>
+                        <li>How interested are you in pursuing coding in the future? (1-5 scale)</li>
+                        <li>What else do you want to do with coding?</li>
+                        <li>What suggestions do you have to make this program better?</li>
+                    </ol>
+                </ul>
+
+                <h3>Reflection</h3>
+                <ul class="steps">
+                    <li>Analyze pre and post survey data.</li>
+                    <li>Conclude the impact from this program.</li>
+                    <li>Share your success with #codebeyond.</li>
+                </ul>
+            </div>
+        </section>
+        
+        <footer>
+            <p>&copy; Scratch, Code, and Beyond</p>
+        </footer>
+        
+        <script>
+            var mainNav = document.getElementById("mainNav");
+            window.onscroll = function () { 
+                // "use strict";
+                if (document.documentElement.scrollTop > 50 ) {
+                    mainNav.classList.add("navbar-shrink");
+                } 
+                else {
+                    mainNav.classList.remove("navbar-shrink");
+                }
+            };
+        </script>
+    </body>
+</html>

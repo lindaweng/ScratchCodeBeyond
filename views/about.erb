@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About</title>
+        <link rel="stylesheet" type="text/css" href="./style1.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Knewave|Comfortaa|Handlee">
+    </head>
+    
+    <body id="page-top">
+        <nav class="navbar" id="mainNav">
+            <a class="nav-title" href="#page-top"> Scratch, Code, and Beyond</a>
+            <ul class="navbar-list">
+                <li class="nav-item">
+                    <a href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/curriculum">Toolkit</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/">Home</a>
+                </li>
+            </ul>
+        </nav>
+        
+        <header>
+            <div class="title">
+                <h1>Scratch, Code, and Beyond</h1>
+            </div>
+        </header>
+        
+        <section id="about">
+            <div class="container">
+                <h2>About</h2>
+                <br>
+                <!--Picture of me, my name, product of my Gold Award Project-->
+                <!--write into nice memoir-->
+                <div class="row">
+                    <div class="feature-2">
+                        <img src="img/profile.png">
+                    </div>
+                    <div class="feature-2">
+                        <img src="img/about.png">
+                        <!--<p>My name is Linda Weng and this program is a product of my Gold Award Project. I used a simple, relatable, block-based programming system called <a href="htpps://scratch.mit.edu" target="_blank">Scratch</a>, developed by the MIT Media Lab which is accessible online. I taught the students how to make their very own game on Scratch step by step. But it wasn't just lecturing or copying code, the learning was interactive. I also taught the students how to code with Python Turtle on <a href="https://repl.it" target="_blank">Repl.it</a> to create cool graphic designs. I introduced this program to my high school's Girls Who Code Club and it became one of their outreach programs.</p>-->
+                    </div>
+                </div>
+                
+                <br><br><br>
+
+                <div class="row">
+                    <div class="feature-2">
+                        <p>Novi High School Girls Who Code Club Members</p>
+                    </div>
+                    <div class="feature-2">
+                        <p>Novi Meadows Coding Club</p>
+                    </div>
+                </div>
+                
+                <h3>Thank You!</h3>
+                
+                <div class="row">
+                    <div class="feature-3">
+                        <p><a href="https://www.gssem.org/" target="_blank">Girl Scouts of Southeast Michigan</a></p>
+                    </div>
+                    <div class="feature-3">
+                        <p><a href="http://www.novi.k12.mi.us/" target="_blank">Novi Community Schools</a></p>
+                    </div>
+                    <div class="feature-3">
+                        <p><a href="https://girlswhocode.com" target="_blank">Novi High School Girls Who Code Club</a></p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        
+        <footer>
+            <p>&copy; Scratch, Code, and Beyond</p>
+        </footer>
+        
+        <script>
+            var mainNav = document.getElementById("mainNav");
+            window.onscroll = function () { 
+                // "use strict";
+                if (document.documentElement.scrollTop > 50 ) {
+                    mainNav.classList.add("navbar-shrink");
+                } 
+                else {
+                    mainNav.classList.remove("navbar-shrink");
+                }
+            };
+        </script>
+    </body>
+</html>
