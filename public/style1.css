@@ -64,7 +64,8 @@ hr {
 }
 
 .navbar-shrink {
-    background-color: #42f448;
+    background-color: #01c115;
+    /*#42f448;*/
     /*#0CD9A2*/
 }
 
@@ -95,15 +96,17 @@ hr {
     font-family: Comfortaa;
     text-transform: uppercase;
     text-align: center;
+    color: black;
 }
 
 .nav-title:hover, .nav-item a:hover {
-    color: black;
+    color: blue;
 }
 
 .title {
     padding: 3rem;
-    background: linear-gradient(to left, #FFAA0B, yellow);
+    background: linear-gradient(to left, #FFAA0B, #FFFF4E);
+    /*#FFFF5C;*/
 }
 
 .container {
@@ -169,7 +172,8 @@ hr {
 }
 
 #about {
-    background-color: #A34CE8;
+    background-color: #AE79F7;
+    /*#A34CE8;*/
     /*2AE7F0*/
 }
 
